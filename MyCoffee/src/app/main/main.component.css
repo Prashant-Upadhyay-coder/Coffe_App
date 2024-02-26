@@ -1,0 +1,269 @@
+.image img {
+  overflow: hidden;
+
+}
+
+.img_1 {
+  background: url("../../assets/main-home-rev-slider-3.jpg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 98vh;
+}
+
+.img_2 {
+  background: url("../../assets/rev-png-4.png.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 98vh;
+
+}
+
+.img_2 h1 {
+  color: #202020;
+  font-family: system-ui;
+  font-size: 89px;
+  font-weight: bold;
+  line-height: 98px;
+  letter-spacing: -8px;
+  position: relative;
+  margin-top: 69%;
+  left: 50%;
+}
+
+.row {
+  --bs-gutter-x: initial;
+  --bs-gutter-y: initial;
+}
+
+.img_2 img {
+  position: absolute;
+  top: 28%;
+  left: 67%;
+  width: 135px;
+}
+
+.img_love img {
+  position: absolute;
+  top: 81%;
+  left: 57%;
+  width: 28%;
+}
+
+.image_product p {
+  margin-bottom: 0px;
+  color: #202020;
+  font-family: fantasy;
+  font-size: 25px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.arrow {
+  display: flex;
+  height: 65px;
+  justify-content: center;
+  align-items: center;
+  background: #FBED81;
+}
+
+.arrow_p {
+  position: absolute;
+  top: 59%;
+  left: 1237px;
+}
+
+.middle {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: center;
+  color: #202020;
+  font-family: system-ui;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 38px;
+  /* 237.5% */
+}
+
+.product_main {
+  background-color: #FDF1D9;
+
+}
+
+.product p {
+  margin: 0px;
+  color: #202020;
+  font-family: system-ui;
+  font-size: 30px;
+  font-weight: bolder;
+  line-height: 38px;
+  letter-spacing: 0px;
+  text-transform: uppercase;
+}
+
+.coffe_more_img {
+  background: url("../../assets/section.elementor-section.png");
+  background-size: auto;
+  background-repeat: no-repeat;
+  height: 83vh;
+}
+
+.img_left_coffee {
+  background: url("../../assets/div.elementor-widget-wrap.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.scroll_content p {
+  color: #202020;
+  text-align: center;
+  font-family: system-ui;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 30px;
+  letter-spacing: 0.7px;
+  text-transform: uppercase;
+}
+
+.star {
+  font-size: 24px;
+  color: #f8d64e;
+  /* Color for the star */
+}
+
+.content-scoller {
+  margin-top: 14%;
+  padding: 20px;
+}
+
+.carousel-indicators {
+  top: 115%;
+
+}
+
+.carousel-indicators button {
+  background-color: lightgrey;
+  border: 1px solid #3333339f;
+}
+
+.carousel-indicators .active {
+  background-color: rgba(0, 0, 0, 0.831);
+  /* Color for the active indicator */
+  border: 1px solid #575454;
+  /* Border color for the active indicator */
+}
+
+.carousel-item p {
+  color: #202020;
+  text-align: center;
+  font-family: FANTASY;
+  font-size: 28px;
+  font-weight: 300;
+  letter-spacing: 0.7px;
+  text-transform: uppercase;
+
+}
+.left_one{
+  border: 1px solid black;
+  display: flex;
+  height: 700px;
+  padding: 20px;
+  flex-direction: column;
+  align-items: center;
+}
+.left_title{
+  position: absolute;
+  margin-top: 30%;
+    width: 481.138px;
+    transform: rotate(-90deg);
+}
+
+.left_one p{
+  color: #202020;
+    font-family: Anton;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.img_three img{
+border-radius: 8px;
+   width: 649px;;
+}
+
+.right_three_title p{
+  color: #202020;
+  font-family: system-ui;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: -0.5px;
+  text-transform: uppercase;
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 576px) {
+
+  .img_2 img {
+    position: absolute;
+    top: 121%;
+    left: 64%;
+    width: 90px;
+  }
+
+  .img_love img {
+    position: absolute;
+    top: 167%;
+    left: 35%;
+    width: 65%;
+  }
+
+  .arrow {
+    display: flex;
+    height: 66px;
+    width: 34px;
+  }
+
+  .arrow_p {
+    position: absolute;
+    top: 59%;
+    left: 91%;
+  }
+
+  .middle {
+    color: #202020;
+    font-family: system-ui;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 38px;
+    /* 237.5% */
+  }
+
+  .img_2 h1 {
+    color: #202020;
+    font-family: system-ui;
+    font-size: 66px;
+    font-weight: bold;
+    line-height: 98px;
+    letter-spacing: -8px;
+    position: relative;
+    margin-top: 69%;
+    left: 50%;
+  }
+
+  .carousel-indicators {
+    top: 100%;
+
+  }
+
+  .carousel-item p {
+    font-size: 14px;
+
+  }
+
+  .product p {
+    font-size: 18px;
+  }
+
+}
+
+/* Responsive styles for medium screens */
